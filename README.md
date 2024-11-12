@@ -1,7 +1,3 @@
-Berikut adalah template README dengan penjelasan tambahan untuk fungsi `accessSharedData` yang mengelola akses data bersama dan mengindikasikan interferensi dengan LED biru.
-
----
-
 # Sistem Kontrol LED Multi-Thread dengan FreeRTOS
 
 ## Tentang Proyek
