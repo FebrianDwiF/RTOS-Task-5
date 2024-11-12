@@ -66,3 +66,10 @@ Jika `startFlag` bernilai `1`, task diperbolehkan mengakses data dan flag diubah
 - Program menggunakan HSI (High Speed Internal) clock.
 - Tidak menggunakan PLL untuk simplisitas.
 - Menggunakan HAL library untuk abstraksi hardware.
+
+
+
+
+https://github.com/user-attachments/assets/19ef2b5e-cb03-4c06-a7c4-ab76eca92209
+
+
