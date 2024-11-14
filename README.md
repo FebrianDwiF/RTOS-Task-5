@@ -1,7 +1,7 @@
 # Sistem Kontrol LED Multi-Thread dengan FreeRTOS
 
 ## Tentang Proyek
-Proyek ini adalah implementasi sistem kontrol LED menggunakan STM32 microcontroller dengan FreeRTOS sebagai sistem operasi real-time. Sistem ini mengelola dua LED (hijau dan merah) dengan pola kedipan yang berbeda menggunakan tiga thread terpisah. Sistem ini juga mendeteksi interferensi akses data bersama dan mengindikasikannya dengan menyalakan LED biru.
+Repository ini mengimplementasikan RTOS pada STM32F103C8T6 dengan tiga task: defaultTask, greenLedTask, dan redLedTask untuk mengontrol LED. Menggunakan CMSIS-OS untuk manajemen task dan STM32 HAL untuk konfigurasi clock serta GPIO, program ini mengelola inisialisasi perangkat keras serta kontrol LED secara periodik melalui masing-masing task.
 
 ## Diagram Alur Kerja
 <!-- Tambahkan diagram alur kerja jika diperlukan -->
